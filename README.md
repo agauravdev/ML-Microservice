@@ -23,7 +23,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Setup the Environment
 
-* Create a virtualenv and activate it
+* Create a virtualenv and activate it or run make setup
 * Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
@@ -35,6 +35,6 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+* Setup and Configure Kubernetes locally (using minikube)
+* Create Flask app in Container (./run_docker.sh)
+* Run via kubectl (./run_kubernetes.sh)
