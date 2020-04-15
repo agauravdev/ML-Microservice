@@ -1,18 +1,9 @@
-#!/usr/bin/env bash
+dockerpath="gauravg21/udacity_devops_4:1.0"
 
-# This tags and uploads an image to Docker Hub
-
-# Step 1:
-# This is your Docker ID/path
-# dockerpath=<>
-
-# Step 2
-# Run the Docker Hub container with kubernetes
+kubectl run mlmicro --image="gauravg21/udacity_devops_4:1.0" --port=80
 
 
-# Step 3:
-# List kubernetes pods
+kubectl get pod
 
-# Step 4:
-# Forward the container port to a host
 
+sudo kubectl port-forward mlmicro 80:80
