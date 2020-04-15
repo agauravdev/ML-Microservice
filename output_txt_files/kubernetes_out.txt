@@ -1,1 +1,11 @@
-<paste log output from Kubernetes-mediated prediction, here>
+[sudo] password for gaurav: 
+Forwarding from 127.0.0.1:80 -> 80
+Forwarding from [::1]:80 -> 80
+Handling connection for 80
+Handling connection for 80
+Handling connection for 80
+Handling connection for 80
+Handling connection for 80
+Handling connection for 80
+Handling connection for 80
+Handling connection for 80

@@ -1,1 +1,36 @@
-<paste log output from Docker prediction, here>
+* Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 211-692-564
+[2020-04-15 09:38:36,267] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-04-15 09:38:36,269] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-15 09:38:36,281] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-15 09:38:36,294] INFO in app: Scaled payload: 
+[[0. 0. 0. 0. 0. 0.]]
+[2020-04-15 09:38:36,295] INFO in app: Prediction: 
+[20.35373177134412]
+172.17.0.1 - - [15/Apr/2020 09:38:36] "POST /predict HTTP/1.1" 200 -
+[2020-04-15 09:38:37,851] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-04-15 09:38:37,853] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-15 09:38:37,866] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-15 09:38:37,879] INFO in app: Scaled payload: 
+[[0. 0. 0. 0. 0. 0.]]
+[2020-04-15 09:38:37,880] INFO in app: Prediction: 
+[20.35373177134412]
+172.17.0.1 - - [15/Apr/2020 09:38:37] "POST /predict HTTP/1.1" 200 -
+
